@@ -41,5 +41,13 @@
       "platform": "web",
       "immediately": true
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChoiChoi-math/dsh-abbr-hint.git"
+  },
+  "homepage": "https://github.com/ChoiChoi-math/dsh-abbr-hint#readme",
+  "bugs": {
+    "url": "https://github.com/ChoiChoi-math/dsh-abbr-hint/issues"
   }
 }

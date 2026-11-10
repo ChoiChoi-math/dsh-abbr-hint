@@ -76,3 +76,9 @@ node test/host-check.mjs
 ## 卸载
 
 设置 → 插件里移除，或让 agent 调 `plugin_manager` 的 `remove_bundle`，目标 `dsh-abbr-hint`。插件删除后页面里的下划线、卡片、设置页一起消失，不会留残留节点。
+
+---
+
+- GitHub 仓库：https://github.com/ChoiChoi-math/dsh-abbr-hint
+- npm：https://www.npmjs.com/package/dsh-abbr-hint
+- 问题与建议：https://github.com/ChoiChoi-math/dsh-abbr-hint/issues
