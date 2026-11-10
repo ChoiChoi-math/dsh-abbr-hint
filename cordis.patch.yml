@@ -1,0 +1,3 @@
+- insert:
+    - id: abbr-hint
+      name: 'dsh-abbr-hint'

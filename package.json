@@ -1,0 +1,45 @@
+{
+  "name": "dsh-abbr-hint",
+  "version": "1.0.0",
+  "description": "Hover an abbreviation in a DSH reply to read and edit its Chinese explanation; ask follow-up questions in the card, and auto-fill the ones you have not met yet.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "dsh": ">=0.2.0-rc.2 <0.3.0-0"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "abbreviation",
+    "acronym",
+    "glossary",
+    "tooltip"
+  ],
+  "meta": {
+    "title": "缩写提示",
+    "description": "把鼠标停在回复里的缩写上，弹出中文解释；解释可以就地改、可以追问展开，没收录的会自动补一条。"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
