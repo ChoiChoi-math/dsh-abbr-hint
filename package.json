@@ -1,6 +1,6 @@
 {
   "name": "dsh-abbr-hint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hover an abbreviation in a DSH reply to read and edit its Chinese explanation; ask follow-up questions in the card, and auto-fill the ones you have not met yet.",
   "type": "module",
   "license": "MIT",
